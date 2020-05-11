@@ -1,0 +1,98 @@
+@media only screen and (min-width:540px){
+
+.about-uper{
+        width: 70%;
+        padding-top: 10vh;
+        margin: 0 auto;
+        overflow: hidden;
+        font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+}
+.about-uper > .about-left{
+        width: 20%;
+        padding-top:3rem;
+        height: 80vh;
+        float: left;
+        margin-right: 10px;
+        background: rgba(173,216,230,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+ .about-uper > .about-left >  .uper-avatar{
+        height: 80px;
+        width: 80px;
+        border-radius: 40px;
+        margin-bottom: 2rem;
+}
+ .about-uper > .about-left >  .uper-avatar:hover{
+        transform: scale(1.2);
+}
+.about-uper > .about-left >  span{
+        font-size: 0.8rem;
+}
+.about-right{
+        overflow: hidden;
+        background: rgb(228, 228, 228);
+        margin-top: 10px;
+        padding-top: 4vh;
+        padding-right: 80px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.about-right > ul > li{
+        list-style-type: none;
+        display: block;
+        height: 6vh;
+        font-size: 0.8rem;
+}
+    
+
+}
+    
+    
+@media only screen and (max-width:540px){
+    
+.about-uper{
+        font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+}
+.about-uper > .about-left{
+        width: 100%;
+        padding-top:2rem;
+        height: 200px;
+        background: rgba(173,216,230,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.about-uper > .about-left > .uper-avatar{
+        height: 80px;
+        width: 80px;
+        border-radius: 40px;
+        margin-bottom: 2rem;
+}
+.about-uper >.about-left > .uper-avatar:hover{
+        transform: scale(1.2);
+}
+.about-uper > .about-left > span{
+     font-size: 0.7rem;
+}
+.about-right{
+        background: rgb(228, 228, 228);
+        padding-top: 6vh;
+        padding-bottom: 5vh;
+        /* padding-left: 1vw; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.about-right >  ul > li{
+        list-style-type: none;
+        display: block;
+        font-size: 0.7rem;
+        line-height: 6vh;
+
+}
+
+}

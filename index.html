@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>QR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./css/swiper.min.css">
+
+    <!-- Demo styles -->
+    <link  rel="stylesheet" href="./css/index.css" type="text/css">
+    <link  rel="stylesheet" href="./css/animate.min.css" type="text/css">
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide item1">
+                <div class="left-nav"><ul>
+                    <li><a href="">主页</a></li>   
+                    <li><a href="./html/blog.html">博客</a></li>
+                    <li><a href="./html/mood.html">心情</a></li>
+                    <li><a href="./html/note.html">笔记</a></li>
+                    <li><a href="./html/board.html">留言版</a></li>
+                    <li><a href="./html/about.html">关于</a></li>
+                    <li><a href="./html/more.html">更多</a></li>
+                </ul>
+            </div>
+            <div class="core-item wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+                 <p>真正的朋友，懂得沉默，懂得等待，他知道你想跟他说的话自然会跟他说，他会对你的好适可而止，它知道你好的比坏的多，但永远不会告诉你你有多好，就像他永远不会告诉你他有多爱你一样。时间把人划分成一个又一个圈，只有永远和你站在同一个圈子里的人，才能成为你可以守护一生的朋友。</p>
+            </div>
+                
+            </div>
+            <div class="swiper-slide item2">
+                <div class="core-item2">
+                    <p>也许你想成为太阳，可你却只是一颗星辰；也许你想成为大树，可你却是一棵小草。于是，你有些自卑。其实，你和别人一样，也是一片风景：做不了太阳，就做星辰，在自己的星座发光发热；做不了大树，就做小草，以自己的绿色装点希望……</p>
+               </div>
+            </div>
+            <div class="swiper-slide item3">
+                <div class="core-item3">
+                    <p>夕阳缓缓地沉了下去，它似乎怕勾起我们无限的离愁，于是选择了安静地离去。但这只是短暂的分别，明早它就会回来了，将以另一种方式回到我们的身边。</p>
+                </div>
+            </div>
+            <div class="swiper-slide item4">
+                <div class="core-item4 slideInLeft"  data-wow-duration="2s" data-wow-delay="5s">
+                    <p>真正你好的比坏的多，但个又一个圈生的朋友。</p>
+               </div>
+            </div>
+            <div class="swiper-slide item5">Slide 5</div>
+            <div class="swiper-slide item6">Slide 6</div>
+            <div class="swiper-slide item7">Slide 7</div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+  
+
+</body>
+    <!-- Swiper JS -->
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        effect: 'fade',   // fade, cube , coverflow , flip 
+		speed: 800,
+        spaceBetween: 0,
+        mousewheel: {
+            forceToAxis: false,
+            releaseOnEdges: false,
+            invert: false,
+            sensitivity: 100,
+        },
+		autoplay: {
+			delay: 2000,	
+		},
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+	
+	
+    });
+    </script>
+
+    <script>
+            wow = new WOW(
+                {
+                    boxClass: 'wow',      // 默认属性名
+                    animateClass: 'animated', // 默认触发的动画类(包含在animate css中)
+                    offset: 0,          // 为所有添加wow的元素设置 data-wow-delay属性 的默认值
+                    mobile: true,       // 是否在移动设备中开启动画
+                    live: true        // 持续监测页面中是否插入新的wow元素
+                }
+            );
+            wow.init();
+
+</script>
+</html>
