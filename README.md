@@ -1,1 +1,1 @@
-# static-blog
+## This is a static blog page 
